@@ -1,0 +1,632 @@
+[
+ {
+  "skill": "Fractions",
+  "difficulty": 1,
+  "question": "What is 1/2 of 10?",
+  "options": [
+   "3",
+   "5",
+   "8",
+   "20"
+  ],
+  "correct_index": 1,
+  "hint": "Half means split into 2 equal groups.",
+  "explanation": "10 split into 2 equal groups is 5 in each group."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 1,
+  "question": "What is 1/4 of 8?",
+  "options": [
+   "4",
+   "1",
+   "2",
+   "6"
+  ],
+  "correct_index": 2,
+  "hint": "A quarter means split into 4 equal groups.",
+  "explanation": "8 split into 4 equal groups is 2 in each group."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 2,
+  "question": "What is 3/4 of 20?",
+  "options": [
+   "12",
+   "15",
+   "16",
+   "5"
+  ],
+  "correct_index": 1,
+  "hint": "Find 1/4 first, then multiply by 3.",
+  "explanation": "1/4 of 20 is 5, and 3 lots of 5 is 15."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 2,
+  "question": "Which fraction is bigger?",
+  "options": [
+   "1/2",
+   "2/3",
+   "They are equal",
+   "Cannot tell"
+  ],
+  "correct_index": 1,
+  "hint": "Change both to sixths so the pieces are the same size.",
+  "explanation": "1/2 = 3/6 and 2/3 = 4/6, so 2/3 is bigger."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 3,
+  "question": "What is 2/5 + 1/5?",
+  "options": [
+   "3/10",
+   "3/5",
+   "2/25",
+   "1/5"
+  ],
+  "correct_index": 1,
+  "hint": "When the bottom numbers match, only add the top numbers.",
+  "explanation": "2 fifths plus 1 fifth is 3 fifths. The bottom number stays 5."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 3,
+  "question": "Write 6/8 in its simplest form.",
+  "options": [
+   "3/4",
+   "2/3",
+   "6/4",
+   "1/4"
+  ],
+  "correct_index": 0,
+  "hint": "Find a number that divides into both 6 and 8.",
+  "explanation": "Divide the top and bottom by 2 to get 3/4."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 4,
+  "question": "What is 1/2 + 1/3?",
+  "options": [
+   "2/5",
+   "5/6",
+   "1/6",
+   "2/6"
+  ],
+  "correct_index": 1,
+  "hint": "Make the bottom numbers the same first. Try 6.",
+  "explanation": "1/2 = 3/6 and 1/3 = 2/6, so the total is 5/6."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 4,
+  "question": "What is 2/3 of 45?",
+  "options": [
+   "15",
+   "30",
+   "20",
+   "35"
+  ],
+  "correct_index": 1,
+  "hint": "Find 1/3 of 45, then double it.",
+  "explanation": "1/3 of 45 is 15, and 2 lots of 15 is 30."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 5,
+  "question": "What is 3/4 - 1/6?",
+  "options": [
+   "2/10",
+   "7/12",
+   "5/6",
+   "1/2"
+  ],
+  "correct_index": 1,
+  "hint": "Find a number that both 4 and 6 go into. Try 12.",
+  "explanation": "3/4 = 9/12 and 1/6 = 2/12, so 9/12 - 2/12 = 7/12."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 5,
+  "question": "A jug is 3/5 full and holds 450 ml. How much does it hold when full?",
+  "options": [
+   "750 ml",
+   "900 ml",
+   "270 ml",
+   "675 ml"
+  ],
+  "correct_index": 0,
+  "hint": "If 3 fifths is 450 ml, what is 1 fifth?",
+  "explanation": "1 fifth is 450 divided by 3 = 150 ml. Five fifths is 5 x 150 = 750 ml."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 1,
+  "question": "Which word means the same as BIG?",
+  "options": [
+   "large",
+   "tiny",
+   "quick",
+   "dull"
+  ],
+  "correct_index": 0,
+  "hint": "Think of an elephant. How would you describe it?",
+  "explanation": "Large and big both describe something of great size."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 1,
+  "question": "Which word means the same as HAPPY?",
+  "options": [
+   "glad",
+   "angry",
+   "sleepy",
+   "cold"
+  ],
+  "correct_index": 0,
+  "hint": "Which word describes a good mood?",
+  "explanation": "Glad and happy both describe a good feeling."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 2,
+  "question": "Which word means the same as RAPID?",
+  "options": [
+   "slow",
+   "quick",
+   "heavy",
+   "quiet"
+  ],
+  "correct_index": 1,
+  "hint": "Think of a rapid river. How does the water move?",
+  "explanation": "Rapid means moving at great speed, which is quick."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 2,
+  "question": "Which word means the same as BEGIN?",
+  "options": [
+   "end",
+   "start",
+   "stop",
+   "wait"
+  ],
+  "correct_index": 1,
+  "hint": "What do you do at the very first moment of something?",
+  "explanation": "To begin and to start mean the same thing."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 3,
+  "question": "Which word means the same as RELUCTANT?",
+  "options": [
+   "unwilling",
+   "eager",
+   "careful",
+   "tired"
+  ],
+  "correct_index": 0,
+  "hint": "A reluctant child does NOT want to do something.",
+  "explanation": "Reluctant means not wanting to do something, which is unwilling."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 3,
+  "question": "Which word means the same as ANCIENT?",
+  "options": [
+   "modern",
+   "very old",
+   "fragile",
+   "valuable"
+  ],
+  "correct_index": 1,
+  "hint": "Think of ancient Egypt. How long ago was it?",
+  "explanation": "Ancient means from a very long time ago."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 4,
+  "question": "Which word means the same as SCARCE?",
+  "options": [
+   "rare",
+   "plentiful",
+   "costly",
+   "hidden"
+  ],
+  "correct_index": 0,
+  "hint": "If food is scarce, is there lots of it or very little?",
+  "explanation": "Scarce means hard to find because there is very little, which is rare."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 4,
+  "question": "Which word means the same as GENEROUS?",
+  "options": [
+   "selfish",
+   "giving",
+   "careless",
+   "modest"
+  ],
+  "correct_index": 1,
+  "hint": "A generous person likes to share.",
+  "explanation": "Generous means willing to give freely, so giving is closest."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 5,
+  "question": "What does EPHEMERAL mean?",
+  "options": [
+   "lasting only a short time",
+   "very important",
+   "hidden from view",
+   "extremely loud"
+  ],
+  "correct_index": 0,
+  "hint": "A soap bubble is ephemeral. What happens to it quickly?",
+  "explanation": "Ephemeral describes something that lasts for a very short time."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 5,
+  "question": "What does METICULOUS mean?",
+  "options": [
+   "in a great hurry",
+   "extremely careful about details",
+   "very untidy",
+   "easily upset"
+  ],
+  "correct_index": 1,
+  "hint": "A meticulous scientist checks every small detail.",
+  "explanation": "Meticulous means showing great attention to detail."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 1,
+  "question": "What comes next? 2, 4, 6, 8, ?",
+  "options": [
+   "9",
+   "10",
+   "12",
+   "14"
+  ],
+  "correct_index": 1,
+  "hint": "How much does the number go up each time?",
+  "explanation": "The numbers go up by 2 each time, so 8 + 2 = 10."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 1,
+  "question": "What comes next? 5, 10, 15, 20, ?",
+  "options": [
+   "22",
+   "25",
+   "30",
+   "24"
+  ],
+  "correct_index": 1,
+  "hint": "Count in fives.",
+  "explanation": "The numbers go up by 5 each time, so 20 + 5 = 25."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 2,
+  "question": "What comes next? 3, 6, 12, 24, ?",
+  "options": [
+   "36",
+   "48",
+   "30",
+   "60"
+  ],
+  "correct_index": 1,
+  "hint": "Is it adding the same amount, or doing something else each time?",
+  "explanation": "Each number is doubled, so 24 x 2 = 48."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 2,
+  "question": "What comes next? 100, 90, 80, 70, ?",
+  "options": [
+   "50",
+   "65",
+   "60",
+   "75"
+  ],
+  "correct_index": 2,
+  "hint": "The numbers are getting smaller. By how much?",
+  "explanation": "The numbers go down by 10 each time, so 70 - 10 = 60."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 3,
+  "question": "What comes next? 1, 4, 9, 16, ?",
+  "options": [
+   "20",
+   "24",
+   "25",
+   "36"
+  ],
+  "correct_index": 2,
+  "hint": "These are 1x1, 2x2, 3x3, 4x4... what is 5x5?",
+  "explanation": "These are square numbers. The next is 5 x 5 = 25."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 3,
+  "question": "What comes next? 2, 5, 8, 11, ?",
+  "options": [
+   "13",
+   "14",
+   "15",
+   "16"
+  ],
+  "correct_index": 1,
+  "hint": "Find the gap between neighbouring numbers.",
+  "explanation": "The numbers go up by 3 each time, so 11 + 3 = 14."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 4,
+  "question": "What comes next? 1, 1, 2, 3, 5, 8, ?",
+  "options": [
+   "11",
+   "12",
+   "13",
+   "14"
+  ],
+  "correct_index": 2,
+  "hint": "Look at the two numbers just before the gap. What do they make together?",
+  "explanation": "Each number is the sum of the two before it, so 5 + 8 = 13."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 4,
+  "question": "What comes next? 2, 6, 18, 54, ?",
+  "options": [
+   "108",
+   "162",
+   "148",
+   "216"
+  ],
+  "correct_index": 1,
+  "hint": "How do you get from 2 to 6, and from 6 to 18?",
+  "explanation": "Each number is multiplied by 3, so 54 x 3 = 162."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 5,
+  "question": "What comes next? 1, 2, 4, 7, 11, 16, ?",
+  "options": [
+   "21",
+   "22",
+   "23",
+   "20"
+  ],
+  "correct_index": 1,
+  "hint": "Look at the gaps between numbers. Do the gaps follow a pattern?",
+  "explanation": "The gaps are 1, 2, 3, 4, 5, so the next gap is 6 and 16 + 6 = 22."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 5,
+  "question": "What comes next? 3, 5, 9, 17, 33, ?",
+  "options": [
+   "49",
+   "65",
+   "57",
+   "64"
+  ],
+  "correct_index": 1,
+  "hint": "The gaps are 2, 4, 8, 16. What is the next gap?",
+  "explanation": "The gaps double each time, so the next gap is 32 and 33 + 32 = 65."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 1,
+  "question": "What is 1/3 of 9?",
+  "options": [
+   "3",
+   "6",
+   "2",
+   "9"
+  ],
+  "correct_index": 0,
+  "hint": "Split 9 into 3 equal groups.",
+  "explanation": "9 split into 3 equal groups is 3 in each group."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 2,
+  "question": "What is 2/5 of 10?",
+  "options": [
+   "2",
+   "4",
+   "5",
+   "25"
+  ],
+  "correct_index": 1,
+  "hint": "Find 1/5 first, then double it.",
+  "explanation": "1/5 of 10 is 2, and 2 lots of 2 is 4."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 3,
+  "question": "Write 4/10 in its simplest form.",
+  "options": [
+   "2/5",
+   "4/5",
+   "1/4",
+   "2/10"
+  ],
+  "correct_index": 0,
+  "hint": "Divide the top and bottom by the same number.",
+  "explanation": "Divide both by 2 to get 2/5."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 4,
+  "question": "What is 3/4 + 1/8?",
+  "options": [
+   "4/12",
+   "7/8",
+   "4/8",
+   "1/2"
+  ],
+  "correct_index": 1,
+  "hint": "Change 3/4 into eighths first.",
+  "explanation": "3/4 = 6/8, and 6/8 + 1/8 = 7/8."
+ },
+ {
+  "skill": "Fractions",
+  "difficulty": 5,
+  "question": "What is 5/6 - 1/3?",
+  "options": [
+   "4/3",
+   "1/2",
+   "2/3",
+   "4/6"
+  ],
+  "correct_index": 1,
+  "hint": "Change 1/3 into sixths.",
+  "explanation": "1/3 = 2/6, so 5/6 - 2/6 = 3/6, which simplifies to 1/2."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 1,
+  "question": "Which word means the same as SMALL?",
+  "options": [
+   "tiny",
+   "huge",
+   "loud",
+   "warm"
+  ],
+  "correct_index": 0,
+  "hint": "Think of an ant. How would you describe it?",
+  "explanation": "Tiny and small both describe something of little size."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 2,
+  "question": "Which word means the same as SILENT?",
+  "options": [
+   "noisy",
+   "quiet",
+   "angry",
+   "empty"
+  ],
+  "correct_index": 1,
+  "hint": "Think of a library. What is it like?",
+  "explanation": "Silent means making no sound, which is quiet."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 3,
+  "question": "Which word means the same as HESITATE?",
+  "options": [
+   "pause",
+   "rush",
+   "shout",
+   "forget"
+  ],
+  "correct_index": 0,
+  "hint": "Someone who hesitates stops for a moment before acting.",
+  "explanation": "To hesitate is to pause before doing something."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 4,
+  "question": "Which word means the same as CONCEAL?",
+  "options": [
+   "hide",
+   "reveal",
+   "polish",
+   "borrow"
+  ],
+  "correct_index": 0,
+  "hint": "Treasure is often concealed. What do people do to it?",
+  "explanation": "To conceal something is to hide it."
+ },
+ {
+  "skill": "Vocabulary",
+  "difficulty": 5,
+  "question": "What does AMBIGUOUS mean?",
+  "options": [
+   "open to more than one meaning",
+   "completely false",
+   "very ancient",
+   "easily broken"
+  ],
+  "correct_index": 0,
+  "hint": "An ambiguous sentence could be understood in two different ways.",
+  "explanation": "Ambiguous means unclear because it can be read in more than one way."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 1,
+  "question": "What comes next? 10, 20, 30, 40, ?",
+  "options": [
+   "45",
+   "50",
+   "60",
+   "100"
+  ],
+  "correct_index": 1,
+  "hint": "Count in tens.",
+  "explanation": "The numbers go up by 10 each time, so 40 + 10 = 50."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 2,
+  "question": "What comes next? 1, 3, 5, 7, ?",
+  "options": [
+   "8",
+   "9",
+   "10",
+   "11"
+  ],
+  "correct_index": 1,
+  "hint": "These are odd numbers. How big is the gap?",
+  "explanation": "The numbers go up by 2 each time, so 7 + 2 = 9."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 3,
+  "question": "What comes next? 4, 9, 14, 19, ?",
+  "options": [
+   "22",
+   "23",
+   "24",
+   "25"
+  ],
+  "correct_index": 2,
+  "hint": "Find the gap between neighbouring numbers.",
+  "explanation": "The numbers go up by 5 each time, so 19 + 5 = 24."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 4,
+  "question": "What comes next? 1, 3, 7, 15, 31, ?",
+  "options": [
+   "47",
+   "62",
+   "63",
+   "61"
+  ],
+  "correct_index": 2,
+  "hint": "Double the number, then add 1.",
+  "explanation": "Each number is double the last, plus 1. So 31 x 2 + 1 = 63."
+ },
+ {
+  "skill": "Number patterns",
+  "difficulty": 5,
+  "question": "What comes next? 2, 3, 5, 7, 11, 13, ?",
+  "options": [
+   "15",
+   "17",
+   "19",
+   "21"
+  ],
+  "correct_index": 1,
+  "hint": "These can only be divided by 1 and themselves.",
+  "explanation": "These are prime numbers. The next prime after 13 is 17."
+ }
+]

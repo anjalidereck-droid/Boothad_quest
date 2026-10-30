@@ -1,0 +1,176 @@
+/*
+  game.css
+  ========
+  How the game looks. EVERYTHING is inside ".dq-root" so it cannot change the
+  look of the rest of your website (and your theme cannot easily break it).
+
+  The colours are stored once as "variables" at the top. Change them to
+  re-theme the whole game (for example to match boothad.com).
+*/
+
+.dq-root {
+  --dq-night: #1d2540;
+  --dq-parchment: #f6e9c9;
+  --dq-edge: #c9a55b;
+  --dq-ink: #2b1f12;
+  --dq-brand: #2f6fb3;
+  --dq-brand-dark: #234f80;
+  --dq-good: #2e9e5b;
+  --dq-bad: #c9432d;
+  --dq-gold: #e8a91d;
+
+  box-sizing: border-box;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 14px;
+  border-radius: 16px;
+  background: radial-gradient(circle at 50% 0%, #34406b 0%, var(--dq-night) 75%);
+  color: #fff;
+  font-family: Georgia, "Palatino Linotype", serif;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
+.dq-root *, .dq-root *::before, .dq-root *::after { box-sizing: border-box; }
+.dq-root .dq-hidden { display: none !important; }
+
+.dq-header { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+.dq-brand { font-size: 1.35rem; font-weight: 700; color: #ffd54a; }
+.dq-mode-picker { font-size: 0.8rem; display: flex; gap: 8px; align-items: center; margin: 0; color: #fff; }
+.dq-root select { font: inherit; font-size: 0.85rem; padding: 4px 6px; border-radius: 6px; color: #222; background: #fff; max-width: 100%; }
+
+.dq-root h2, .dq-root h3 { margin: 0 0 8px; line-height: 1.25; }
+.dq-root h2 { font-size: 1.5rem; }
+.dq-root h3 { font-size: 1.2rem; }
+.dq-root .dq-light { color: #ffd54a; margin-top: 16px; }
+
+/* ---- Panels (parchment boxes) ---- */
+.dq-panel {
+  background: var(--dq-parchment);
+  color: var(--dq-ink);
+  border: 3px solid var(--dq-edge);
+  border-radius: 14px;
+  padding: 14px 18px;
+  margin-bottom: 14px;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.3);
+}
+.dq-panel h2, .dq-panel h3 { color: #7a4a00; }
+.dq-panel.dq-small { padding: 10px 16px; }
+.dq-panel p { margin: 0 0 8px; }
+
+/* ---- Buttons ---- */
+.dq-root button.dq-btn {
+  font: inherit; font-size: 1rem; cursor: pointer; border-radius: 12px;
+  border: 2px solid transparent; padding: 10px 18px; margin-top: 10px; line-height: 1.2;
+  text-transform: none; letter-spacing: 0;
+}
+.dq-root .dq-btn:focus-visible, .dq-root select:focus-visible, .dq-root input:focus-visible, .dq-root .dq-arrow:focus-visible, .dq-root .dq-skill-card:focus-visible {
+  outline: 3px solid #ffb703; outline-offset: 2px;
+}
+.dq-root .dq-primary { background: var(--dq-brand); color: #fff; border-bottom: 4px solid var(--dq-brand-dark); }
+.dq-root .dq-primary:hover { background: var(--dq-brand-dark); color: #fff; }
+.dq-root .dq-secondary { background: #fff; border-color: var(--dq-brand); color: var(--dq-brand); }
+.dq-root .dq-link { background: none; color: #234f80; text-decoration: underline; padding: 8px; border: 0; }
+.dq-row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+
+.dq-root label { display: block; margin-top: 10px; font-weight: 600; }
+.dq-root input[type="text"], .dq-root input[type="password"] {
+  font: inherit; padding: 10px; border: 2px solid #b8a67a; border-radius: 10px;
+  width: 100%; margin-top: 4px; background: #fffdf6; color: #222; height: auto;
+}
+.dq-preview { font-size: 0.85rem; font-weight: 400; }
+.dq-preview select { margin-top: 4px; width: 100%; padding: 6px; }
+.dq-error { color: var(--dq-bad); min-height: 1.4em; font-weight: 600; }
+
+/* ---- Progress bars ---- */
+.dq-bar { background: #d9c89b; border-radius: 10px; height: 14px; overflow: hidden; margin-top: 6px; }
+.dq-bar-fill { background: var(--dq-gold); height: 100%; width: 0%; transition: width 0.4s; }
+
+/* ---- Map screen ---- */
+.dq-stats { display: grid; gap: 10px; grid-template-columns: 1fr 2fr; }
+.dq-stat { background: #fff8e3; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--dq-edge); font-size: 0.95rem; }
+
+.dq-skill-list { display: grid; gap: 12px; margin-bottom: 14px; }
+.dq-root button.dq-skill-card {
+  display: flex; align-items: center; gap: 16px; width: 100%; text-align: left; margin: 0;
+  background: var(--dq-parchment); color: var(--dq-ink); font: inherit; cursor: pointer; padding: 12px 16px;
+  border: 3px solid var(--dq-edge); border-bottom-width: 6px; border-radius: 14px;
+}
+.dq-root button.dq-skill-card:hover { border-color: var(--dq-gold); }
+
+/* The mastery ring: a circle filled with a "conic gradient". --pct is set by game.js. */
+.dq-ring {
+  --pct: 0; width: 64px; height: 64px; border-radius: 50%; flex-shrink: 0;
+  background: conic-gradient(var(--dq-gold) calc(var(--pct) * 1%), #d9c89b 0);
+  display: grid; place-items: center;
+}
+.dq-ring-inner { width: 46px; height: 46px; border-radius: 50%; background: var(--dq-parchment); display: grid; place-items: center; font-weight: 700; font-size: 0.85rem; }
+.dq-skill-name { font-weight: 700; font-size: 1.15rem; }
+.dq-skill-meta { font-size: 0.85rem; color: #6a5a3a; }
+
+/* ---- Quest screen ---- */
+.dq-scene-wrap { margin-bottom: 12px; }
+#dq-scene { display: block; width: 100%; height: auto; border: 4px solid var(--dq-edge); border-radius: 12px; background: #000; }
+
+.dq-quiz-top { display: flex; justify-content: space-between; font-weight: 700; color: #7a4a00; }
+.dq-goal { font-size: 0.95rem; color: #6a4a10; font-style: italic; }
+
+/* ---- The answers are ARROWS ----
+   Each arrow is a button cut into an arrow shape with clip-path: a pointed head
+   on the right, feathers (the notch) on the left. */
+.dq-quiver { display: grid; gap: 10px; margin: 8px 0; }
+.dq-root button.dq-arrow {
+  position: relative; display: flex; align-items: center; gap: 12px; width: 100%;
+  min-height: 56px; padding: 8px 54px 8px 30px; margin: 0; text-align: left;
+  font: inherit; font-size: 1rem; line-height: 1.25; color: #3a2a12; cursor: pointer; border: 0;
+  background: linear-gradient(#f4e4b4, #e2c981);
+  clip-path: polygon(0 0, 14px 50%, 0 100%, calc(100% - 38px) 100%, 100% 50%, calc(100% - 38px) 0);
+  filter: drop-shadow(0 2px 0 rgba(0,0,0,0.3));
+  transition: transform 0.12s;
+}
+.dq-root button.dq-arrow:hover:not(:disabled) { background: linear-gradient(#fff3c9, #f0d68a); transform: translateX(6px); }
+.dq-arrow-num {
+  flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center;
+  background: #2f6fb3; color: #fff; font-weight: 700; font-size: 0.85rem;
+}
+.dq-arrow-label { flex: 1; }
+.dq-root button.dq-arrow.dq-correct { background: linear-gradient(#c9f0d6, #8fd6aa); }
+.dq-root button.dq-arrow.dq-wrong { background: linear-gradient(#fbd0c8, #ee9d90); }
+.dq-root button.dq-arrow.dq-picked { background: linear-gradient(#cfe0f5, #a9c6ea); }
+.dq-root button.dq-arrow:disabled { cursor: default; }
+
+.dq-hint { background: #fff2b8; padding: 10px 14px; border-radius: 10px; }
+.dq-feedback { background: #fff8e3; padding: 8px 14px; border-radius: 10px; margin-top: 10px; border: 1px solid var(--dq-edge); }
+.dq-feedback p { margin: 4px 0; }
+.dq-feedback .dq-good { color: var(--dq-good); font-weight: 700; }
+.dq-feedback .dq-bad { color: var(--dq-bad); font-weight: 700; }
+
+.dq-stars { font-size: 2.6rem; letter-spacing: 6px; }
+
+/* ================= MODES =================
+   adventure : the full game
+   calm      : no timer, no hearts lost, no screen shake or fast motion
+   exam      : no picture (game.js hides it); the arrows become a plain list */
+
+.dq-mode-calm .dq-arrow, .dq-mode-exam .dq-arrow { transition: none; }
+.dq-mode-calm .dq-arrow:hover:not(:disabled) { transform: none; }
+
+.dq-mode-exam { background: #fff; color: #111; border: 1px solid #aaa; }
+.dq-mode-exam .dq-brand, .dq-mode-exam .dq-mode-picker, .dq-mode-exam .dq-light { color: #111; }
+.dq-mode-exam .dq-panel { background: #fff; border-color: #888; box-shadow: none; }
+.dq-mode-exam .dq-panel h2, .dq-mode-exam .dq-panel h3, .dq-mode-exam .dq-quiz-top, .dq-mode-exam .dq-goal { color: #111; }
+.dq-root.dq-mode-exam button.dq-arrow {
+  clip-path: none; filter: none; background: #fff; border: 2px solid #888; border-radius: 8px; padding: 10px 14px;
+}
+.dq-root.dq-mode-exam button.dq-arrow:hover:not(:disabled) { background: #f0f4ff; transform: none; }
+.dq-root.dq-mode-exam button.dq-arrow.dq-picked { background: #dde8fb; border-color: #2f6fb3; }
+
+@media (max-width: 520px) {
+  .dq-root { font-size: 16px; padding: 10px; }
+  .dq-stats { grid-template-columns: 1fr; }
+  .dq-root button.dq-arrow { padding-right: 44px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dq-root * { transition: none !important; }
+}
