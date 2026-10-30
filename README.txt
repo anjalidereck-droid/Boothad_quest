@@ -1,12 +1,12 @@
-# Boothad Quest
+Boothad Quest
 
 A castle-adventure game that makes multiple choice practice fun. Children answer questions to reach the princess, and teachers can see how each child is getting on.
 
-## What the game does
+What the game does
 
 Each question comes with arrows as answers. Shoot the right arrow to open the gate, smash the boulder, beat the fire, the goblin and finally the dragon, then save the princess. The questions get harder or easier to suit each child, and every answer comes with a hint and an explanation.
 
-## For children
+For children
 
 All you need is a web browser.
 
@@ -15,7 +15,7 @@ All you need is a web browser.
 3. Pick a subject.
 4. Read the question and shoot the arrow with the right answer.
 
-## For teachers
+For teachers
 
 All you need is a web browser and your teacher login.
 
